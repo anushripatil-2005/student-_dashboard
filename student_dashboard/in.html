@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile-pic.jpg" alt="Profile Picture">
+                <h2>Anushri Patil</h2>
+                <p>Student</p>
+            </div>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#grades">Grades</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <section id="overview">
+                <h1>Dashboard Overview</h1>
+                <p>Welcome back, anu! Here's an overview of your current activities.</p>
+            </section>
+
+            <section id="grades">
+                <h1>Your Grades</h1>
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>A</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="courses">
+                <h1>Current Courses</h1>
+                <ul>
+                    <li>Math 101</li>
+                    <li>Physics 202</li>
+                    <li>History 101</li>
+                </ul>
+            </section>
+
+            <section id="settings">
+                <h1>Settings</h1>
+                <button id="change-password">Change Password</button>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
